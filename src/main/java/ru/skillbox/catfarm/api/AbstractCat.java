@@ -2,7 +2,6 @@ package ru.skillbox.catfarm.api;
 
 import lombok.Data;
 import org.springframework.stereotype.Component;
-import ru.skillbox.catfarm.aop.LifecycleSupported;
 
 @Data
 @Component

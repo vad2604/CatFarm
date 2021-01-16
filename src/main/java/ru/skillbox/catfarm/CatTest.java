@@ -3,13 +3,13 @@ package ru.skillbox.catfarm;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 import ru.skillbox.catfarm.api.AbstractCat;
-import ru.skillbox.catfarm.api.CatFactory;
+import ru.skillbox.catfarm.api.AbstractCatFactory;
 
 @Component
 @RequiredArgsConstructor
 public class CatTest {
 
-    private final CatFactory catFactory;
+    private final AbstractCatFactory catFactory;
 
     public void startTest() {
 

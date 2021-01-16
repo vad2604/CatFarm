@@ -1,4 +1,4 @@
-package ru.skillbox.catfarm.aop;
+package ru.skillbox.catfarm.api;
 
 
 import java.lang.annotation.ElementType;
